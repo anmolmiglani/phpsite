@@ -1,0 +1,721 @@
+h1,h2,h3,h4,h5,h6,a
+{
+    font-family: 'Prompt', sans-serif;
+}
+p
+{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body
+{
+	margin:0px;
+}
+.container 
+{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*header styles*/
+#header
+{
+	background-color:#065F82;
+	color:white;
+    padding: 8px 0px;
+}
+#header .container
+{
+    display: flex;
+    position: relative;
+    padding: 0;
+}
+/*logo styles*/
+.logo a,.nav11 a
+{
+	color:white;
+	text-decoration:none;
+}
+.logo h1
+{
+    margin: 0;
+    position: absolute;
+    top: 18%;
+    left: 4.5%;
+	font-size:2em;
+}
+.logo a img
+{
+    height: 50px;
+    position: absolute;
+    top: 11%;
+    left: 0%;
+}
+#header a:hover
+{
+	color:#f7783c;
+}
+.logo
+{
+	width:25%;
+    padding: 10px 0px;
+}
+.login_form 
+{
+	width:55%;
+	text-align:center;
+	margin-top:15px;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+.login_form input
+{
+	padding:3px;
+}
+.login_form button[type="submit"]
+{
+	background-color:#f7783c;
+	color:white;
+	padding:5px 10px;
+	font-weight:bold;
+}
+.msg
+{
+	width:5%;
+}
+/*navigation bar styles*/
+.nav1
+{
+	width:55%;
+}
+.nav1 a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.nav1 ul
+{
+	padding-left:0;
+}
+.hm a
+{
+	color:#f7783c;
+}
+.nav1 ul
+{
+	list-style-type:none;
+	text-align:right;
+	margin-top:12px
+}
+.nav1 li
+{
+	display:inline-block;
+	margin-right:17px;
+	font-size:1.1em
+}
+.hm a
+{
+	font-size:1.1em;
+}
+/*main styles*/
+main .ab1 img
+{
+	margin-top:50px;
+	border-radius:5px;
+	margin-left:15px;
+	height:420px
+}
+main .ab11 img
+{
+	height:280px
+}
+.subform
+{
+	width:70%;
+}
+
+.contentnew
+{
+	height:70vh;
+}
+.div1
+{
+    width: 15%;
+    margin-top:15px
+}
+/*button styles*/
+.btn-style 
+{
+    padding: 12px 20px 12px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    background: #f7783c;
+    text-decoration: none;
+    transition: all 0.8s ease-in-out;   
+}
+.btn-style:hover
+{
+    background-color: white;
+}
+/* header css close */
+
+.hero
+{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/hero.jpg) no-repeat center/cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* banner css close */
+/*products  styles*/
+#products h1
+{
+    color: #065F82;
+    font-size: 2.1em;
+}
+.products 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-box 
+{
+    flex-basis: calc(33.33% - 40px);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.product-box img 
+{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product-box h3 
+{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.product-details 
+{
+    margin-top: 15px;
+}
+.product-details:hover
+{
+    background-color: #065F82;
+    color:#f7783c
+}
+/* product css close */
+
+#review
+{
+    background-color:#f5f5f5;
+    padding: 70px 0px;
+}
+#review .rv
+{
+    padding-right: 20px;
+}
+#review .container
+{
+    display: flex;
+}
+#review span,#review h1
+{
+    color: #f7783c;
+}
+#review img
+{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+}
+/* review css close */
+
+footer
+{
+	background-color:#065F82;
+	color:white;
+	padding-top:7px;
+}
+footer .container
+{
+    display: flex;
+}
+footer .ft
+{
+    width: 50%;
+    padding-right: 20px;
+}
+footer h3
+{
+	color:#f7783c;
+}
+.ft img
+{
+	height:35px;
+	margin-right:20px
+}
+/* footer css close */
+
+  
+  
+/* about css start */
+#ab .container
+{
+    display: flex;
+}
+#ab p
+{
+    line-height: 30px;
+    font-size: 1.1em;
+}
+
+#ab h1
+{
+    color: #065F82;
+	font-size:1.9em;
+}
+#ab1
+{
+	height:61vh
+}
+#ab1 h1
+{
+    color: #065F82;
+	text-align:center;
+}
+/* timeline css start */
+
+#tm
+{
+    display: flex;
+    justify-content: center;
+}
+/* Timeline Container */
+.timeline {
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 2px solid #333;
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background:#f7783c;
+    color: white;
+    border-radius: 8px;
+    max-width: 800px;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Title of the card */
+  .title {
+    color:#065F82;
+    position: relative;
+  }
+
+  .info h1,.info h3
+  {
+    margin: 0;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid orangered;
+  }
+/* timeline css end */
+
+/* contact css start */
+#contact
+{
+    padding: 20px 0px;
+}
+#contact h1
+{
+	text-align:center;
+	color:#065F82;
+	font-size:1.9em;
+}
+#contact .container
+{
+    display: flex;
+}
+.con1
+{
+	width:47%;
+	margin-right:5%;
+}
+.con1 img
+{
+    margin-right: 2px;
+}
+.con2
+{
+	width:50%;
+	text-align:center;
+	
+}
+.con2 img
+{
+	/* width:100%; */
+	margin-top:12%;
+    height: 250px;
+}
+
+.con h2
+{
+	margin-top:0;
+}
+.con input,textarea,select
+{
+	padding:15px 20px;
+	border:none;
+	width:100%;
+	border-radius:5px;
+    background-color:#f4f4f4
+}
+.con button
+{
+	background-color:#065F82;
+	color:white;
+	padding:12px 50px;
+	border:none;
+	border-radius:5px;
+	font-weight:bold;
+    transition: all 0.3s;
+}
+.con button:hover
+{
+    background-color:#f7783c
+}
+/* contact css close */
+
+/* menu page css start */
+#menu
+{
+    padding: 30px 0px;
+}
+#menu h1
+{
+    /* font-size: 50px; */
+    line-height: 55px;
+    font-weight: bold;
+    margin-top: 7px;
+    text-align: center;
+}
+#menu a:hover
+{
+    background-color: #065F82;
+}
+#menu h1 span
+{
+    color: #f7783c;
+}
+#menu .mn
+{
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgb(227, 227, 227);
+    border-left: 7px solid #f7783c;
+    margin-bottom: 40px;
+    display: flex;
+}
+.mndiv1
+{
+    width: 85%;
+}
+.mndiv1 h3
+{
+    margin-top: 0;
+}
+.mndiv2
+{
+    width: 15%;
+}
+.mndiv2 img
+{
+    width: 100%;
+}
+.cl
+{
+    color: #f7783c;
+}
+#menu h3
+{
+    font-weight: bolder;
+}
+
+/* product details css start */
+        /* Custom styles for product details page */
+        .product-details2 .container
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            height: 500px;
+            padding-top: 120px;
+        }
+
+        .product-details2 .product-image {
+            flex: 1 0 300px;
+            max-width: 100%;
+        }
+
+        .product-details2 .product-info {
+            flex: 1 0 300px;
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        /* Media queries for responsive layout */
+        @media (max-width: 760px) {
+            .product-details2 .product-image,
+            .product-details2 .product-info {
+                flex: 1 0 100%;
+                max-width: 100%;
+            }
+        }
+
+        @media (min-width: 761px) and (max-width: 1280px) {
+            .product-details2 {
+                padding: 40px;
+            }
+        }
+
+  /* Media Queries */
+  
+@media (max-width: 1280px) 
+{
+.container {
+    padding: 20px;
+}
+
+.product-box {
+    flex-basis: calc(50% - 20px);
+}
+}
+
+@media (max-width: 760px) 
+{
+	.subform
+	{
+		width:100%;
+		/* text-align:right */
+	}
+	.contentnew
+	{
+		height:auto;
+	}
+	.logo
+	{
+		/* width:25%; */
+		padding: 10px 0px;
+	}
+	.login_form 
+	{
+		/* width:45%; */
+		text-align:center;
+		margin-top:15px;
+		font-family: 'Kumbh Sans', sans-serif;
+	}
+	.nav11
+	{
+		/* width:30%; */
+		text-align:right;
+	}
+	.con2
+	{
+		margin:auto;
+	}
+	main .ab1
+	{
+		margin:auto;
+	}
+	main .ab1 img
+	{
+		margin-left:0px;
+		margin:auto;
+	}
+    .mndiv1
+    {
+        width: 80%;
+    }
+    .mndiv2
+    {
+        width: 20%;
+    }
+    #ab .container
+    {
+        flex-direction: column;
+    } 
+    #contact .container
+    {
+        flex-direction: column;
+    }
+    #contact .container .con1
+    {
+        text-align: center;
+        width: 100%;
+        padding: 0 15%;
+    }
+}
+@media (max-width: 991px) 
+{
+	.hd1
+	{
+		order:2;
+	}
+	.hd2
+	{
+		order:1;
+	}
+	.contentnew
+	{
+		height:auto;
+	}
+	#contact .container
+	{
+		flex-direction:row;
+	}
+	.container
+	{
+		flex-direction:column;
+	}
+	#contact img
+	{
+		width:100%;
+	}
+}
+@media (max-width: 560px) 
+{
+	#contact .container
+	{
+		flex-direction:column;
+	} 	
+	#contact img
+	{
+		width:auto;
+	}
+	.con2
+	{
+		width:100%
+	}
+	.contentnew
+	{
+		height:auto;
+	}
+	main .ab1 img
+	{
+		margin-left:0px;
+		width:100%;
+	}
+    .product-details2 .container
+    {
+        height: auto;
+       text-align: center;
+    }
+    #header .container
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header ul 
+    {
+        justify-content: flex-end; /* Align menu to right */
+    }
+    .logo h1
+    {
+        position: absolute;
+        top: 8%;
+        left: 12%;
+		font-size:2em;
+    }
+    .logo a img
+    {
+        height: 50px;
+        position: absolute;
+        top: 7%;
+        left: 2%;
+    }
+    #header a:hover
+    {
+        color:#f7783c;
+    }
+    .logo
+    {
+        width:100%;
+        padding: 0px 0px;
+    }
+    .nav11
+    {
+        width:100%;
+    }
+    .div1
+    {
+        margin-left: 30%;
+        width: 40%;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .div1 .btn-style
+    {
+        padding: 10px 15px 10px;
+        margin-right: 0;
+    }
+    #header .container li
+    {
+        display: block;
+    }
+    #review .container
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    #review .rv
+    {
+        padding-bottom: 20px;
+    }
+    .mndiv1
+    {
+        width: 60%;
+        padding-right: 10px;
+    }
+    .mndiv2
+    {
+        width: 40%;
+    }
+    #contact .container .con1
+    {
+        padding: 0 10%;
+    }
+}
